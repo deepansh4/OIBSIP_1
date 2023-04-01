@@ -1,0 +1,75 @@
+body {
+    background-image: url("https://media.giphy.com/media/TDKjSUGGbTAup6w3FO/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: #73777B;
+    
+   }
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: sans-serif;
+    color: white;
+    outline: none;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: #2e2e33;
+    padding: 15px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(6,68px);
+}
+
+input{
+    grid-column: span 6;
+    height: 100px;
+    width: 380px;
+    background-color: #408E91;
+    border: none;
+    border-radius: 15px;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    background-color: #73777B;
+    border: none;
+    border-radius: 35px;
+    margin: 3px;
+    font-size: 16px;
+}
+
+.equal{
+    width: px;
+    border-radius: 35px;
+    color: 62CDFF;
+}
+
+.ac{
+
+    background-color: #97DEFF;
+    color: black;
+}
+
+.grey-buttons{
+    background-color: #408E91;
+}
